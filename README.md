@@ -53,7 +53,7 @@ Sample usage
  ```
 
 ## Using store
-In order access store `useSelector` hook is be used which offers much plain code compared to `mapStateToProps`
+In order access store `useSelector` hook is used which offers much plain code compared to `mapStateToProps`
  ```
   /** remaining list in store */
   const remainingTodos = useSelector((state: AppState) => state.todoState.remainingTodoList);
